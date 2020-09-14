@@ -23,6 +23,7 @@
               "$ref" : "#/definitions/Model3"
             }
           }
+          
         }
       }
     },
