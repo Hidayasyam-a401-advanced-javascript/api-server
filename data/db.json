@@ -1,0 +1,74 @@
+{
+  "categories": [
+    {
+      "id": "2",
+      "name": "History",
+      "display_name": "FANTASY",
+      "description": "Fantasy is a genre that’s identified by the use of magic within it."
+    },
+    {
+      "id": "4",
+      "name": "Art",
+      "display_name": "ART",
+      "description": "This book genre encompasses several different types of books. However, all of them require the same thing: a focus on something art-related."
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "category": "History",
+      "name": "Democracy: A Life",
+      "display_name": "Democracy - A Life",
+      "description": "Ancient Greece first coined the concept of 'democracy', yet almost every major ancient Greek thinker-from Plato and Aristotle onwards- was ambivalent towards or even hostile to democracy in any form. The explanation for this is quite simple: the elite perceived majority power as tantamount to a dictatorship of the proletariat."
+    },
+    {
+      "id": "2",
+      "category": "Romance",
+      "name": "It Ends With Us",
+      "display_name": "It Ends With Us",
+      "description": "New to Boston, small-town girl Lily manages to get gorgeous neurosurgeon Ryle Kincaid to break his 'no dating' rule. But his stubborn ways  make her wonder where that aversion came from."
+    },
+    {
+      "id": "3",
+      "category": "History",
+      "name": "Iran: A Modern History",
+      "display_name": "Iran",
+      "description": "This history of modern Iran is not a survey in the conventional sense but an ambitious exploration of the story of a nation. It offers a revealing look at how events, people, and institutions are shaped by currents that sometimes reach back hundreds of years. "
+    },
+    {
+      "id": "4",
+      "category": "Romance",
+      "name": "Vision In White",
+      "display_name": "Vision In White",
+      "description": "The prolific Nora Roberts has penned more than 200 romance novels, but this one earned top marks from her fans as the first installment in The Bride Quartet. Wedding photographer Mackensie 'Mac' Elliot operates a wedding planning company with three friends."
+    },
+    {
+      "id": "5",
+      "category": "History",
+      "name": "1491: New Revelations of the Americas Before Columbus",
+      "display_name": "1491",
+      "description": "In this groundbreaking work of science, history, and archaeology, Charles C. Mann radically alters our understanding of the Americas before the arrival of Columbus in 1492."
+    },
+    {
+      "id": "6",
+      "category": "Art",
+      "name": "The New Drawing on the Right Side of the Brain",
+      "display_name": "The New Drawing on the Right Side of the Brain",
+      "description": "When Drawing on the Right Side of the Brain was first published in 1979, it hit the New York Times bestseller list within two weeks and stayed there for more than a year. In 1989, when Dr. Betty Edwards revised the book, it went straight to the Times list again. Now Dr. Edwards celebrates the twentieth anniversary of her classic book with a second revised edition."
+    },
+    {
+      "id": "7",
+      "category": "Fantasy",
+      "name": " A GAME OF THRONES",
+      "display_name": "A GAME OF THRONES",
+      "description": "This novel launched the Song of Ice and Fire series and upended the established tropes of 1990s-era epic fantasy. Let’s not forget that shocking death at the end! I know it’s hard to believe now in 2018, but back then, that was something of a fantasy no-no."
+    },
+    {
+      "id": "8",
+      "category": "Art",
+      "name": "The Story of Art",
+      "display_name": "The Story of Art",
+      "description": "his text is the 16th revised and updated edition of this introduction to art, from the earliest cave paintings to experimental art. Eight new artists from the modern period have been introduced. They are: Corot, Kollwitz, Nolde, de Chirico, Brancussi, Magritte, Nicolson and Morandi."
+    }
+  ]
+}
