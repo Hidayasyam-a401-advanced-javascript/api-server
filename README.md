@@ -11,3 +11,8 @@
  [pull request](https://github.com/Hidayasyam-a401-advanced-javascript/api-server/pull/2)
 
 [Swagger link](https://app.swaggerhub.com/apis/HidayaSyam/class07/0.1)
+
+## UML 
+![image](./asset/apiserverUML.jpeg)
+
+[UML](https://app.lucidchart.com/invitations/accept/d9014339-0500-4cee-9f6d-946f3f363c46)
