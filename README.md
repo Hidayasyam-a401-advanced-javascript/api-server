@@ -8,7 +8,7 @@
 
 ## --------------------------------------- Class-07 -------------------------------------------
 
- [pull request](https://github.com/Hidayasyam-a401-advanced-javascript/api-server/pull/2)
+ [pull request](https://github.com/Hidayasyam-a401-advanced-javascript/api-server/pull/3)
 
 [Swagger link](https://app.swaggerhub.com/apis/HidayaSyam/class07/0.1)
 
