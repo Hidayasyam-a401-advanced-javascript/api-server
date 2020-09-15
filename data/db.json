@@ -1,8 +1,14 @@
 {
   "categories": [
     {
-      "id": "2",
+      "id": "1",
       "name": "History",
+      "display_name": "HISTORY",
+      "description": "Fantasy is a genre that’s identified by the use of magic within it."
+    },
+    {
+      "id": "2",
+      "name": "FANTASY",
       "display_name": "FANTASY",
       "description": "Fantasy is a genre that’s identified by the use of magic within it."
     },

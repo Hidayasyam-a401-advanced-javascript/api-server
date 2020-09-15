@@ -1,0 +1,515 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "description": "defaultDescription",
+    "version": "0.1",
+    "title": "defaultTitle"
+  },
+  "paths": {
+    "/category": {
+      "get": {
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Definition generated from Swagger Inspector",
+            "schema": {
+              "$ref": "#/definitions/Model17"
+            }
+          }
+        }
+      },
+      "post": {
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "required": false,
+            "schema": {
+              "$ref": "#/definitions/Model1"
+            },
+            "x-examples": {
+              "application/json": "{\n    \"id\":4,\n    \"name\":\"Technology  \",\n    \"display_name\" :\"TEST2 POST Method In category\",\n    \"description\" :\"just to test post method if work or not \"\n}"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Definition generated from Swagger Inspector",
+            "schema": {
+              "$ref": "#/definitions/Model16"
+            }
+          }
+        }
+      },
+      "put": {
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "text/html"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "required": false,
+            "schema": {
+              "$ref": "#/definitions/Model2"
+            },
+            "x-examples": {
+              "application/json": "{\n    \"id\":4,\n    \"name\":\"Technology Update  \",\n    \"display_name\" :\"TEST2 PUT Method In category\",\n    \"description\" :\"just to test put method if work or not \"\n}"
+            }
+          }
+        ],
+        "responses": {
+          "404": {
+            "description": "Definition generated from Swagger Inspector",
+            "schema": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "/products/{param0}": {
+      "put": {
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "required": false,
+            "schema": {
+              "$ref": "#/definitions/Model9"
+            },
+            "x-examples": {
+              "application/json": "{\n        \"id\":17,\n       \"category\": \"test 17 Updated \",\n      \"name\": \"The Story of Art\",\n      \"display_name\": \"The Story of Art\",\n      \"description\": \"Updated Test\"\n}"
+            }
+          },
+          {
+            "name": "param0",
+            "in": "path",
+            "description": "Example values form path are: '17' and '8'",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Definition generated from Swagger Inspector",
+            "schema": {
+              "$ref": "#/definitions/Model11"
+            }
+          },
+          "default": {
+            "description": "Definition generated from Swagger Inspector"
+          }
+        }
+      }
+    },
+    "/{param1}/{param2}": {
+      "get": {
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "param1",
+            "in": "path",
+            "description": "Example values form path are: 'categories' and 'category'",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "param2",
+            "in": "path",
+            "description": "Example values form path are: '1' and '2'",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Definition generated from Swagger Inspector",
+            "schema": {
+              "$ref": "#/definitions/Model15"
+            }
+          },
+          "default": {
+            "description": "Definition generated from Swagger Inspector"
+          }
+        }
+      }
+    },
+    "/{param4}/{param5}": {
+      "delete": {
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "in": "body",
+            "name": "body",
+            "required": false,
+            "schema": {
+              "$ref": "#/definitions/Model7"
+            },
+            "x-examples": {
+              "application/json": "{\n    \"id\":4,\n    \"name\":\"Technology Update  \",\n    \"display_name\" :\"TEST2 PUT Method In category\",\n    \"description\" :\"just to test put method if work or not \"\n}"
+            }
+          },
+          {
+            "name": "param4",
+            "in": "path",
+            "description": "Example values form path are: 'category' and 'products'",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "param5",
+            "in": "path",
+            "description": "Example values form path are: '4' and 'param3'",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Definition generated from Swagger Inspector",
+            "schema": {
+              "$ref": "#/definitions/Model18"
+            }
+          },
+          "default": {
+            "description": "Definition generated from Swagger Inspector"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "Model1": {
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "name": {
+          "type": "string"
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "Model2": {
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "name": {
+          "type": "string"
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "Model3": {
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        }
+      }
+    },
+    "Model4": {
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "category": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "Model6": {
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "category": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "Model9": {
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "category": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "Array": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "Model10": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Array"
+      }
+    },
+    "Model11": {
+      "properties": {
+        "category": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "Model12_Array": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "Model12": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Model12_Array"
+      }
+    },
+    "Model13_Array": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "Model14_Array": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "category": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "Model14": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Model14_Array"
+      }
+    },
+    "Model15": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "Model16_Array": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "Model16": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Model16_Array"
+      }
+    },
+    "Model17_Array": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "Model17": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Model17_Array"
+      }
+    },
+    "Model18_Array": {
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "display_name": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        }
+      }
+    },
+    "Model18": {
+      "type": "array",
+      "items": {
+        "$ref": "#/definitions/Model18_Array"
+      }
+    }
+  }
+}
